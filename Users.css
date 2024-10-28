@@ -1,0 +1,35 @@
+.mycard {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    margin: 20px; /* Outer spacing */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+}
+
+.mycard:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+h1 {
+    font-size: 1.6rem; /* Font size for the name */
+    color: #333; /* Dark text color */
+    margin-bottom: 8px; /* Space below the name */
+}
+
+h2 {
+    font-size: 1.2rem; /* Font size for details */
+    color: #555; /* Medium gray text color */
+    margin: 4px 0; /* Space above and below each detail */
+}
+
+a {
+    color: #007BFF; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
